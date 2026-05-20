@@ -1,5 +1,5 @@
 
-# HW4: Semantic Component Segmentation of Sofa
+# HW4: Segmentation
 
 **Course:** Computer Vision  
 National Yang Ming Chiao Tung University  
@@ -7,8 +7,8 @@ National Yang Ming Chiao Tung University
 ## Overview
 This repository contains the implementation of four semantic segmentation architectures designed to extract six structural components from a specialized sofa dataset. The models include a baseline U-Net (from scratch), a custom attention-enhanced ResNet34-UNet (from scratch), a fine-tuned ResNet34-UNet, and a lightweight DeepLabV3+ utilizing a MobileNetV3 backbone.
 
-> **Note on Model Checkpoints:** Due to size constraints, the `.pth` weight files are not included in this zip archive. 
-> *[Optional: You can download the pre-trained weights from this Google Drive Link: ]*
+> **Note on Model Checkpoints:** Due to size constraints, the `.pth` weight files are not included in this repository. 
+> *[Optional: You can download the pre-trained weights from this Google Drive Link: https://drive.google.com/drive/folders/1KPehM_J46cJQWzyIphUHZIOlYalNdtLN?usp=sharing ]*
 
 ---
 
