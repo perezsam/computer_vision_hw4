@@ -1,0 +1,213 @@
+
+Loading unet_scratch weights from: outputs/unet_scratch/best_unet_scratch.pth
+
+--- Starting Inference on 10 Test Images ---
+
+Image: 0401.png
+PSNR: 22.52
+IoU: Chair Pad (Green): 0.00%, Armrest (Brown): 94.23%, Legs (Black): 93.78%, Chair Base (Yellow): 94.35%, Backrest (Gray): 85.85%
+
+Image: 0402.png
+PSNR: 24.58
+IoU: Chair Pad (Green): 0.00%, Armrest (Brown): 96.98%, Legs (Black): 96.69%, Chair Base (Yellow): 97.56%, Backrest (Gray): 89.75%
+
+Image: 0403.png
+PSNR: 21.45
+IoU: Chair Pad (Green): 41.82%, Armrest (Brown): 97.86%, Legs (Black): 94.60%, Chair Base (Yellow): 97.09%, Backrest (Gray): 9.59%
+
+Image: 0404.png
+PSNR: 22.71
+IoU: Chair Pad (Green): 0.00%, Armrest (Brown): 96.02%, Legs (Black): 94.83%, Chair Base (Yellow): 95.75%, Backrest (Gray): 49.43%
+
+Image: 0405.png
+PSNR: 24.11
+IoU: Chair Pad (Green): 0.00%, Armrest (Brown): 94.16%, Legs (Black): 95.79%, Chair Base (Yellow): 95.74%, Backrest (Gray): 94.17%
+
+Image: 0406.png
+PSNR: 23.26
+IoU: Chair Pad (Green): 0.00%, Armrest (Brown): 93.22%, Legs (Black): 95.38%, Chair Base (Yellow): 96.68%, Backrest (Gray): 83.08%
+
+Image: 0407.png
+PSNR: 23.07
+IoU: Chair Pad (Green): 75.65%, Armrest (Brown): 97.82%, Legs (Black): 0.00%, Chair Base (Yellow): 90.37%, Backrest (Gray): 38.55%
+
+Image: 0408.png
+PSNR: 20.12
+IoU: Armrest (Brown): 67.66%, Legs (Black): 95.22%, Chair Base (Yellow): 95.53%, Backrest (Gray): 9.98%
+
+Image: 0409.png
+PSNR: 18.99
+IoU: Chair Pad (Green): 0.00%, Armrest (Brown): 47.94%, Legs (Black): 90.31%, Chair Base (Yellow): 92.13%, Backrest (Gray): 28.01%
+
+Image: 0410.png
+PSNR: 23.67
+IoU: Chair Pad (Green): 0.00%, Armrest (Brown): 88.06%, Legs (Black): 96.16%, Chair Base (Yellow): 95.63%, Backrest (Gray): 89.30%
+
+==================================================
+FINAL REPORT: UNET_SCRATCH
+==================================================
+Overall mIoU: 73.71%
+Average PSNR: 22.45
+Predictions saved to: data/test/predict/unet_scratch
+==================================================
+
+
+
+Loading resnet34_unet_scratch weights from: outputs/resnet34_unet_scratch/best_resnet34_unet_scratch.pth
+
+--- Starting Inference on 10 Test Images ---
+
+Image: 0401.png
+PSNR: 23.58
+IoU: Armrest (Brown): 94.60%, Legs (Black): 92.49%, Chair Base (Yellow): 93.71%, Backrest (Gray): 98.16%
+
+Image: 0402.png
+PSNR: 25.65
+IoU: Armrest (Brown): 97.37%, Legs (Black): 96.52%, Chair Base (Yellow): 98.46%, Backrest (Gray): 98.75%
+
+Image: 0403.png
+PSNR: 24.11
+IoU: Chair Pad (Green): 93.45%, Armrest (Brown): 97.28%, Legs (Black): 93.65%, Chair Base (Yellow): 96.97%, Backrest (Gray): 62.36%
+
+Image: 0404.png
+PSNR: 24.36
+IoU: Chair Pad (Green): 0.00%, Armrest (Brown): 97.16%, Legs (Black): 91.81%, Chair Base (Yellow): 95.98%, Backrest (Gray): 95.49%
+
+Image: 0405.png
+PSNR: 24.45
+IoU: Armrest (Brown): 96.59%, Legs (Black): 93.52%, Chair Base (Yellow): 96.69%, Backrest (Gray): 97.89%
+
+Image: 0406.png
+PSNR: 24.57
+IoU: Armrest (Brown): 95.67%, Legs (Black): 94.02%, Chair Base (Yellow): 95.87%, Backrest (Gray): 96.68%
+
+Image: 0407.png
+PSNR: 23.84
+IoU: Chair Pad (Green): 96.69%, Armrest (Brown): 97.97%, Legs (Black): 0.00%, Chair Base (Yellow): 94.26%, Backrest (Gray): 84.17%
+
+Image: 0408.png
+PSNR: 19.66
+IoU: Armrest (Brown): 71.32%, Legs (Black): 94.75%, Chair Base (Yellow): 93.16%, Backrest (Gray): 11.13%
+
+Image: 0409.png
+PSNR: 19.87
+IoU: Armrest (Brown): 58.80%, Legs (Black): 90.43%, Chair Base (Yellow): 96.29%, Backrest (Gray): 24.62%
+
+Image: 0410.png
+PSNR: 23.60
+IoU: Armrest (Brown): 84.30%, Legs (Black): 95.14%, Chair Base (Yellow): 97.15%, Backrest (Gray): 88.31%
+
+==================================================
+FINAL REPORT: RESNET34_UNET_SCRATCH
+==================================================
+Overall mIoU: 87.32%
+Average PSNR: 23.37
+Predictions saved to: data/test/predict/resnet34_unet_scratch
+==================================================
+
+
+
+Loading resnet34_unet_finetune weights from: outputs/resnet34_unet_finetune/best_resnet34_unet_finetune.pth
+
+--- Starting Inference on 10 Test Images ---
+
+Image: 0401.png
+PSNR: 23.14
+IoU: Armrest (Brown): 94.38%, Legs (Black): 92.65%, Chair Base (Yellow): 93.82%, Backrest (Gray): 97.92%
+
+Image: 0402.png
+PSNR: 25.35
+IoU: Armrest (Brown): 97.29%, Legs (Black): 95.49%, Chair Base (Yellow): 97.63%, Backrest (Gray): 98.53%
+
+Image: 0403.png
+PSNR: 24.20
+IoU: Chair Pad (Green): 96.18%, Armrest (Brown): 97.86%, Legs (Black): 92.18%, Chair Base (Yellow): 97.54%, Backrest (Gray): 85.69%
+
+Image: 0404.png
+PSNR: 24.61
+IoU: Armrest (Brown): 98.14%, Legs (Black): 94.57%, Chair Base (Yellow): 97.76%, Backrest (Gray): 97.68%
+
+Image: 0405.png
+PSNR: 24.46
+IoU: Armrest (Brown): 97.57%, Legs (Black): 93.97%, Chair Base (Yellow): 98.11%, Backrest (Gray): 97.88%
+
+Image: 0406.png
+PSNR: 24.08
+IoU: Armrest (Brown): 95.79%, Legs (Black): 94.18%, Chair Base (Yellow): 96.02%, Backrest (Gray): 96.87%
+
+Image: 0407.png
+PSNR: 19.18
+IoU: Chair Pad (Green): 97.13%, Armrest (Brown): 86.76%, Legs (Black): 0.00%, Chair Base (Yellow): 47.88%, Backrest (Gray): 90.27%
+
+Image: 0408.png
+PSNR: 19.63
+IoU: Armrest (Brown): 69.83%, Legs (Black): 92.99%, Chair Base (Yellow): 96.37%, Backrest (Gray): 1.79%
+
+Image: 0409.png
+PSNR: 20.42
+IoU: Armrest (Brown): 67.03%, Legs (Black): 88.16%, Chair Base (Yellow): 96.32%, Backrest (Gray): 38.80%
+
+Image: 0410.png
+PSNR: 24.79
+IoU: Armrest (Brown): 96.07%, Legs (Black): 95.36%, Chair Base (Yellow): 96.50%, Backrest (Gray): 98.15%
+
+==================================================
+FINAL REPORT: RESNET34_UNET_FINETUNE
+==================================================
+Overall mIoU: 89.28%
+Average PSNR: 22.99
+Predictions saved to: data/test/predict/resnet34_unet_finetune
+==================================================
+
+
+Loading deeplabv3_mobilenet weights from: outputs/deeplabv3_mobilenet/best_deeplabv3_mobilenet.pth
+
+--- Starting Inference on 10 Test Images ---
+
+Image: 0401.png
+PSNR: 16.35
+IoU: Armrest (Brown): 63.39%, Legs (Black): 80.64%, Chair Base (Yellow): 61.20%, Backrest (Gray): 93.03%
+
+Image: 0402.png
+PSNR: 18.73
+IoU: Armrest (Brown): 90.80%, Legs (Black): 78.29%, Chair Base (Yellow): 95.18%, Backrest (Gray): 96.52%
+
+Image: 0403.png
+PSNR: 19.74
+IoU: Chair Pad (Green): 93.86%, Armrest (Brown): 95.84%, Legs (Black): 74.64%, Chair Base (Yellow): 94.23%, Backrest (Gray): 82.17%
+
+Image: 0404.png
+PSNR: 16.79
+IoU: Armrest (Brown): 85.61%, Legs (Black): 81.80%, Chair Base (Yellow): 72.04%, Backrest (Gray): 86.82%
+
+Image: 0405.png
+PSNR: 18.35
+IoU: Armrest (Brown): 91.82%, Legs (Black): 77.63%, Chair Base (Yellow): 95.19%, Backrest (Gray): 93.72%
+
+Image: 0406.png
+PSNR: 17.53
+IoU: Armrest (Brown): 90.72%, Legs (Black): 76.54%, Chair Base (Yellow): 89.43%, Backrest (Gray): 93.37%
+
+Image: 0407.png
+PSNR: 17.89
+IoU: Chair Pad (Green): 87.06%, Armrest (Brown): 93.75%, Legs (Black): 0.00%, Chair Base (Yellow): 85.41%, Backrest (Gray): 52.58%
+
+Image: 0408.png
+PSNR: 17.41
+IoU: Armrest (Brown): 85.49%, Legs (Black): 77.96%, Chair Base (Yellow): 79.57%, Backrest (Gray): 34.30%
+
+Image: 0409.png
+PSNR: 15.55
+IoU: Armrest (Brown): 78.34%, Legs (Black): 61.97%, Chair Base (Yellow): 65.34%, Backrest (Gray): 65.66%
+
+Image: 0410.png
+PSNR: 18.86
+IoU: Armrest (Brown): 89.68%, Legs (Black): 82.49%, Chair Base (Yellow): 96.71%, Backrest (Gray): 95.07%
+
+==================================================
+FINAL REPORT: DEEPLABV3_MOBILENET
+==================================================
+Overall mIoU: 82.54%
+Average PSNR: 17.72
+Predictions saved to: data/test/predict/deeplabv3_mobilenet
+==================================================
